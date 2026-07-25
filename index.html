@@ -91,70 +91,113 @@
 
     </section>
 
-    <section class="contenido">
+<section class="escalas">
 
-    <h2>Escala Celsius (°C)</h2>
+    <h2>Escalas de Temperatura</h2>
 
-    <div class="tarjeta-contenido">
+    <div class="botones">
 
-        <div class="texto">
+        <button class="activo" onclick="mostrarEscala('celsius', this)">
+            Celsius
+        </button>
 
-            <h3>¿Qué es la escala Celsius?</h3>
+        <button onclick="mostrarEscala('fahrenheit', this)">
+            Fahrenheit
+        </button>
 
-            <p>
-                La escala Celsius es una de las más utilizadas en el mundo para
-                medir la temperatura. Fue propuesta por el astrónomo sueco
-                Anders Celsius y establece como referencia el punto de congelación
-                del agua en 0 °C y el punto de ebullición en 100 °C.
-            </p>
-
-            <p>
-                Esta escala se emplea en la vida cotidiana, en la meteorología,
-                en laboratorios y en diferentes procesos industriales.
-            </p>
-
-        </div>
-
-        <div class="imagen">
-
-            <img src="img/celsius.png" alt="Escala Celsius">
-
-        </div>
+        <button onclick="mostrarEscala('kelvin', this)">
+            Kelvin
+        </button>
 
     </div>
 
-</section>
+    <div class="contenido-escala">
 
-<section class="ejemplo">
+        <!-- CELSIUS -->
 
-    <h2>Ejemplo de Conversión</h2>
+        <div id="celsius" class="escala">
 
-    <div class="tarjeta-ejemplo">
+            <img src="img/celsius.png" alt="Escala Celsius">
 
-        <p>
+            <h3>Escala Celsius</h3>
 
-            Si una temperatura es de <strong>25 °C</strong> y queremos convertirla
-            a Fahrenheit:
+            <p>
 
-        </p>
+                Es la escala más utilizada en la mayor parte del mundo.
+                El agua se congela a 0°C y hierve a 100°C.
 
-        <p>
+            </p>
 
-            °F = (°C × 9/5) + 32
+            <div class="dato">
 
-        </p>
+                💡 Dato curioso
 
-        <p>
+                <p>
 
-            °F = (25 × 9/5) + 32
+                    Anders Celsius creó esta escala en 1742.
 
-        </p>
+                </p>
 
-        <p>
+            </div>
 
-            °F = 77 °F
+        </div>
 
-        </p>
+        <!-- FAHRENHEIT -->
+
+        <div id="fahrenheit" class="escala oculto">
+
+            <img src="img/fahrenheit.png" alt="Escala Fahrenheit">
+
+            <h3>Escala Fahrenheit</h3>
+
+            <p>
+
+                Es utilizada principalmente en Estados Unidos.
+                El agua se congela a 32°F y hierve a 212°F.
+
+            </p>
+
+            <div class="dato">
+
+                💡 Dato curioso
+
+                <p>
+
+                    Fue creada por Daniel Gabriel Fahrenheit.
+
+                </p>
+
+            </div>
+
+        </div>
+
+        <!-- KELVIN -->
+
+        <div id="kelvin" class="escala oculto">
+
+            <img src="img/kelvin.png" alt="Escala Kelvin">
+
+            <h3>Escala Kelvin</h3>
+
+            <p>
+
+                Es la escala utilizada por la comunidad científica.
+
+            </p>
+
+            <div class="dato">
+
+                💡 Dato curioso
+
+                <p>
+
+                    El cero absoluto corresponde a 0 K.
+
+                </p>
+
+            </div>
+
+        </div>
 
     </div>
 
