@@ -46,5 +46,6 @@ Avance 2 de 16
 - ✔ Competencias a desarrollar.
 - ✔ Diseño mejorado con tarjetas informativas.
 
+<img width="1146" height="890" alt="Captura de pantalla 2026-07-24 213243" src="https://github.com/user-attachments/assets/433e4be7-5df6-4db3-a563-e5ed67f772d1" />
 
 
