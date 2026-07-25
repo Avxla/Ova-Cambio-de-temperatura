@@ -144,3 +144,76 @@ main{
     margin-bottom:12px;
 
 }
+
+.contenido,
+.ejemplo{
+
+    margin-top:40px;
+
+}
+
+.contenido h2,
+.ejemplo h2{
+
+    color:var(--color-primario);
+    margin-bottom:20px;
+
+}
+
+.tarjeta-contenido{
+
+    display:flex;
+    align-items:center;
+    gap:50px;
+    background:white;
+    padding:40px;
+    border-radius:12px;
+    box-shadow:0 0 15px rgba(0,0,0,.12);
+
+}
+
+.texto{
+
+    flex:1;
+
+}
+
+.imagen{
+
+    flex:1;
+
+}
+
+.imagen img{
+
+    width:100%;
+    max-width:600px;
+    border-radius:10px;
+
+}
+.texto p{
+
+    margin-top:15px;
+    text-align:justify;
+    line-height:1.8;
+
+}
+
+
+
+.tarjeta-ejemplo{
+
+    background:white;
+    padding:30px;
+    border-left:8px solid var(--color-secundario);
+    border-radius:10px;
+    box-shadow:0 0 15px rgba(0,0,0,.12);
+
+}
+
+.tarjeta-ejemplo p{
+
+    margin:15px 0;
+    font-size:18px;
+
+}
