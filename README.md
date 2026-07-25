@@ -18,6 +18,8 @@ Este proyecto corresponde al desarrollo de un Objeto Virtual de Aprendizaje (OVA
 - CSS3
 - JavaScript
 
-## Estado
+## Estructura del proyecto
+
+![alt text](img\image-1.png)
 
 Avance 1
