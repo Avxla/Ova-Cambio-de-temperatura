@@ -1,3 +1,4 @@
+
 # OVA - Cambios de Temperatura
 
 ## Aprendiz
@@ -20,6 +21,6 @@ Este proyecto corresponde al desarrollo de un Objeto Virtual de Aprendizaje (OVA
 
 ## Estructura del proyecto
 
-![alt text](img\image-1.png)
+<img width="1248" height="479" alt="image-1" src="https://github.com/user-attachments/assets/b778718f-2deb-4935-9b48-4647a0a51c16" />
 
 Avance 1
