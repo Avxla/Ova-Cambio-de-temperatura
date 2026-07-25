@@ -62,3 +62,15 @@ Avance 2 de 16
 
 <img width="1134" height="889" alt="Captura de pantalla 2026-07-25 081100" src="https://github.com/user-attachments/assets/c25162c0-52e3-4890-b41c-2bed84659c91" />
 
+## Estado del proyecto
+
+**Avance 4 de 16**
+
+### Funcionalidades implementadas
+
+- Se incorporaron las escalas Celsius, Fahrenheit y Kelvin mediante pestañas interactivas.
+- Se agregaron imágenes representativas para cada escala.
+- Se añadieron datos curiosos para reforzar el aprendizaje.
+- Se implementó JavaScript para cambiar el contenido sin recargar la página.
+  
+<img width="1267" height="859" alt="Captura de pantalla 2026-07-25 082956" src="https://github.com/user-attachments/assets/26c1ce95-3fc0-46ea-832f-1ff4d4db34c6" />
