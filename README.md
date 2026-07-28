@@ -74,3 +74,16 @@ Avance 2 de 16
 - Se implementó JavaScript para cambiar el contenido sin recargar la página.
   
 <img width="1267" height="859" alt="Captura de pantalla 2026-07-25 082956" src="https://github.com/user-attachments/assets/26c1ce95-3fc0-46ea-832f-1ff4d4db34c6" />
+
+## Estado del proyecto
+
+**Avance 5 de 16**
+
+### Funcionalidades implementadas
+
+- Se agregaron ejemplos resueltos para las conversiones entre las escalas Celsius, Fahrenheit y Kelvin.
+- Se incorporó un botón para mostrar u ocultar los ejemplos paso a paso.
+- Se mejoró la presentación de las fórmulas mediante tarjetas interactivas.
+- Se añadieron efectos visuales para facilitar la comprensión de cada procedimiento.
+
+<img width="1153" height="558" alt="Captura de pantalla 2026-07-28 184718" src="https://github.com/user-attachments/assets/85d3e832-4410-4796-be2c-fc889537ed75" />
