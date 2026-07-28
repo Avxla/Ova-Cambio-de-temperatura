@@ -22,3 +22,27 @@ function mostrarEscala(nombre, boton){
     boton.classList.add("activo");
 
 }
+
+function mostrarConversion(id, boton){
+
+    const conversiones=document.querySelectorAll(".conversion");
+
+    conversiones.forEach(c=>{
+
+        c.classList.add("oculto");
+
+    });
+
+    document.getElementById(id).classList.remove("oculto");
+
+    const botones=document.querySelectorAll(".botones-conversion button");
+
+    botones.forEach(b=>{
+
+        b.classList.remove("activo-conversion");
+
+    });
+
+    boton.classList.add("activo-conversion");
+
+}

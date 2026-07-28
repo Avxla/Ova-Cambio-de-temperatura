@@ -203,6 +203,93 @@
 
 </section>
 
+
+<section class="conversiones">
+
+    <h2>Ejemplos de Conversión</h2>
+
+    <p class="descripcion">
+
+        Selecciona una conversión para ver cómo se realiza paso a paso.
+
+    </p>
+
+    <div class="botones-conversion">
+
+        <button onclick="mostrarConversion('cf', this)" class="activo-conversion">
+            °C → °F
+        </button>
+
+        <button onclick="mostrarConversion('ck', this)">
+            °C → K
+        </button>
+
+        <button onclick="mostrarConversion('fc', this)">
+            °F → °C
+        </button>
+
+        <button onclick="mostrarConversion('kc', this)">
+            K → °C
+        </button>
+
+    </div>
+
+    <div class="panel-conversion">
+
+        <div id="cf" class="conversion">
+
+            <h3>Celsius → Fahrenheit</h3>
+
+            <p>Ejemplo: Convertir 25 °C a Fahrenheit.</p>
+
+            <p>Fórmula:</p>
+
+            <h4>°F = (°C × 9/5) + 32</h4>
+
+            <p>(25 × 9/5) + 32 = 77 °F</p>
+
+        </div>
+
+        <div id="ck" class="conversion oculto">
+
+            <h3>Celsius → Kelvin</h3>
+
+            <p>Ejemplo: Convertir 25 °C a Kelvin.</p>
+
+            <h4>K = °C + 273.15</h4>
+
+            <p>25 + 273.15 = 298.15 K</p>
+
+        </div>
+
+        <div id="fc" class="conversion oculto">
+
+            <h3>Fahrenheit → Celsius</h3>
+
+            <p>Ejemplo: Convertir 77 °F a Celsius.</p>
+
+            <h4>°C = (°F − 32) × 5/9</h4>
+
+            <p>(77 − 32) × 5/9 = 25 °C</p>
+
+        </div>
+
+        <div id="kc" class="conversion oculto">
+
+            <h3>Kelvin → Celsius</h3>
+
+            <p>Ejemplo: Convertir 298.15 K a Celsius.</p>
+
+            <h4>°C = K − 273.15</h4>
+
+            <p>298.15 − 273.15 = 25 °C</p>
+
+        </div>
+
+    </div>
+
+</section>
+
 </main>
 
         </section>
