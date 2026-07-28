@@ -87,3 +87,17 @@ Avance 2 de 16
 - Se añadieron efectos visuales para facilitar la comprensión de cada procedimiento.
 
 <img width="1153" height="558" alt="Captura de pantalla 2026-07-28 184718" src="https://github.com/user-attachments/assets/85d3e832-4410-4796-be2c-fc889537ed75" />
+
+## Estado del proyecto
+
+**Avance 6 de 16**
+
+### Funcionalidades implementadas
+
+- Se creó la sección "Actividad de Aprendizaje".
+- Se diseñó el formulario para ingresar una temperatura y seleccionar la escala de origen.
+- Se incorporó un termómetro visual que servirá para representar los cambios de temperatura.
+- Se añadieron tarjetas para mostrar los resultados de las conversiones.
+- Se preparó la interfaz para implementar la lógica de conversión en el siguiente avance.
+
+<img width="1109" height="910" alt="Captura de pantalla 2026-07-28 185616" src="https://github.com/user-attachments/assets/0f69dfa6-77fe-4dfd-841b-ed5bb306b3c5" />
