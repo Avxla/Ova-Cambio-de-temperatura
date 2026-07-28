@@ -46,3 +46,6 @@ function mostrarConversion(id, boton){
     boton.classList.add("activo-conversion");
 
 }
+
+// La funcionalidad del termómetro se implementará
+// en el siguiente avance.
