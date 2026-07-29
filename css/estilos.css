@@ -1409,27 +1409,7 @@ h2::after{
 
 
 
-.termometro::before{
 
-    content:"100°\A80°\A60°\A40°\A20°\A0°";
-
-    white-space:pre;
-
-    position:absolute;
-
-    left:-55px;
-
-    top:15px;
-
-    font-size:14px;
-
-    font-weight:600;
-
-    line-height:58px;
-
-    color:#607D8B;
-
-}
 
 
 
