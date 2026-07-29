@@ -570,35 +570,7 @@ h2::after{
 
 
 
-.introduccion h2::before{
 
-    content:"📖 ";
-
-}
-
-.objetivos h2::before{
-
-    content:"🎯 ";
-
-}
-
-.competencias h2::before{
-
-    content:"🏆 ";
-
-}
-
-.contenido h2::before{
-
-    content:"🌡️ ";
-
-}
-
-.ejemplo h2::before{
-
-    content:"🧪 ";
-
-}
 
 
 .escalas{
@@ -607,11 +579,7 @@ h2::after{
 
 }
 
-.escalas h2::before{
 
-    content:"🌡️ ";
-
-}
 
 
 
@@ -768,7 +736,7 @@ h2::after{
 
 .dato::before{
 
-    content:"💡 Dato curioso";
+    content:"Dato curioso";
 
     display:block;
 
@@ -928,11 +896,7 @@ h2::after{
 
 }
 
-.conversiones h2::before{
 
-    content:"🔄 ";
-
-}
 
 .descripcion{
 
@@ -1202,11 +1166,6 @@ h2::after{
 
 
 
-.conversion h3::before{
-
-    content:"🧮 ";
-
-}
 
 
 .actividad{
@@ -1215,11 +1174,7 @@ h2::after{
 
 }
 
-.actividad h2::before{
 
-    content:"🧪 ";
-
-}
 
 .descripcion-actividad{
 
