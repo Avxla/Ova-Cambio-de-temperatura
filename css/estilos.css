@@ -1150,6 +1150,149 @@ h2::after{
     animation:aparecer .5s;
 
 }
+.termometro-contenedor{
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    gap:25px;
+
+    margin-top:30px;
+
+}
+.escala-termometro{
+
+    height:300px;
+
+    display:flex;
+
+    flex-direction:column;
+
+    justify-content:space-between;
+
+    align-items:flex-end;
+
+    font-weight:bold;
+
+    color:#546E7A;
+
+    font-size:18px;
+
+    margin-top:-15px;   /* Sube la escala */
+
+    margin-right:15px;
+
+}
+.termometro{
+
+    width:60px;
+
+    height:340px;
+
+    position:relative;
+
+    border-radius:35px;
+
+    overflow:hidden;
+
+    border:5px solid #607D8B;
+
+    background:#ECEFF1;
+
+}
+.brillo{
+
+    position:absolute;
+
+    left:10px;
+
+    top:15px;
+
+    width:12px;
+
+    height:300px;
+
+    border-radius:50px;
+
+    background:rgba(255,255,255,.65);
+
+}
+.mercurio{
+
+    position:absolute;
+
+    bottom:0;
+
+    left:0;
+
+    width:100%;
+
+    height:20%;
+        margin-top: -25px;
+
+    background:linear-gradient(
+
+        to top,
+
+        #1565C0,
+
+        #42A5F5,
+
+        #90CAF9
+
+    );
+
+    transition:all .8s;
+
+}
+
+.termometro::after{
+
+    content:"";
+
+
+    position:absolute;
+
+    width:95px;
+
+    height:95px;
+
+    border-radius:50%;
+
+    left:50%;
+
+    transform:translateX(-50%);
+
+    bottom:-45px;
+
+    background:linear-gradient(
+
+        135deg,
+
+        #1565C0,
+
+        #42A5F5
+
+    );
+
+    border:5px solid #607D8B;
+
+}
+
+#temperaturaActual{
+
+    margin-top:60px;
+
+    font-size:34px;
+
+    color:#1565C0;
+
+    font-weight:700;
+
+}
 .pasos .paso span{
 
     width:55px;

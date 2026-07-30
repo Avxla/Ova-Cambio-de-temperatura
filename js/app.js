@@ -109,35 +109,45 @@ function convertirTemperatura(){
   interpretarTemperatura(celsius);
 
 }
-
 function actualizarTermometro(celsius){
 
-    const mercurio=document.querySelector(".mercurio");
+    const mercurio = document.querySelector(".mercurio");
 
-    let porcentaje=(celsius+20)/120;
+    celsius = Math.max(0, Math.min(100, celsius));
 
-    porcentaje=Math.max(0,Math.min(1,porcentaje));
+    // Altura del tubo (sin el bulbo)
+    const alturaTubo = 270; // píxeles
 
-    mercurio.style.height=(porcentaje*100)+"%";
+    // Altura que siempre ocupa el bulbo
+    const alturaBulbo = 60; // píxeles
 
-    if(celsius<10){
+    const altura = alturaBulbo + (celsius / 100) * alturaTubo;
 
-        mercurio.style.background="#2196F3";
+    mercurio.style.height = altura + "px";
+
+    document.getElementById("temperaturaActual").textContent =
+        celsius.toFixed(1) + " °C";
+
+
+    if(celsius < 10){
+
+        mercurio.style.background =
+        "linear-gradient(to top,#1565C0,#42A5F5,#90CAF9)";
+
+    }else if(celsius < 30){
+
+        mercurio.style.background =
+        "linear-gradient(to top,#43A047,#81C784,#A5D6A7)";
+
+    }else{
+
+        mercurio.style.background =
+        "linear-gradient(to top,#E53935,#EF5350,#FF8A80)";
 
     }
 
-    else if(celsius<35){
-
-        mercurio.style.background="#4CAF50";
-
-    }
-
-    else{
-
-        mercurio.style.background="#F44336";
-
-    }
-
+    document.getElementById("temperaturaActual").textContent =
+    celsius.toFixed(1) + " °C";
 }
 
 
