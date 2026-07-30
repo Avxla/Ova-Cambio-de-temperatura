@@ -125,3 +125,6 @@ Avance 2 de 16
 - Se mejoró la experiencia del usuario mediante retroalimentación visual y descriptiva.
 <img width="1086" height="885" alt="Captura de pantalla 2026-07-29 193059" src="https://github.com/user-attachments/assets/9ca13f3b-2c52-4716-83d0-0f7e896e728f" />
 
+## Avance 9 – Evaluación 
+
+En esta etapa se desarrolló el módulo de evaluación del OVA. Se implementó un cuestionario interactivo con preguntas de selección múltiple relacionadas con las escalas de temperatura, las conversiones y sus aplicaciones. El sistema calcula automáticamente el puntaje obtenido y proporciona retroalimentación al usuario según su desempeño, fortaleciendo el proceso de aprendizaje mediante la autoevaluación.
