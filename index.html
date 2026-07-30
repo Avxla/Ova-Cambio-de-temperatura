@@ -12,7 +12,7 @@
 
 <body>
 
-    <header>
+    <header id="inicio">
 
         <h1>OVA - Cambios de Temperatura</h1>
 
@@ -20,362 +20,369 @@
 
     </header>
 
-    <nav>
-
-        <ul>
-
-            <li><a href="#">Inicio</a></li>
-
-            <li><a href="#">Contenido</a></li>
-
-            <li><a href="#">Actividad</a></li>
-
-            <li><a href="#">Evaluación</a></li>
-
-        </ul>
-
-    </nav>
+<nav>
+    <ul>
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#contenido">Contenido</a></li>
+        <li><a href="#actividad">Actividad</a></li>
+        <li><a href="#evaluacion">Evaluación</a></li>
+    </ul>
+</nav>
 
     <main>
 
         <section class="bienvenida">
 
-          <main>
+            <main>
 
-    <section class="introduccion">
+                <section class="introduccion" id="contenido">
 
-        <h2>Introducción</h2>
+                    <h2>Introducción</h2>
 
-        <p>
-            La temperatura es una magnitud física utilizada para medir qué tan
-            caliente o frío se encuentra un cuerpo o una sustancia. Existen
-            diferentes escalas para representarla, siendo las más utilizadas
-            Celsius (°C), Fahrenheit (°F) y Kelvin (K).
-        </p>
+                    <p>
+                        La temperatura es una magnitud física utilizada para medir qué tan
+                        caliente o frío se encuentra un cuerpo o una sustancia. Existen
+                        diferentes escalas para representarla, siendo las más utilizadas
+                        Celsius (°C), Fahrenheit (°F) y Kelvin (K).
+                    </p>
 
-        <p>
-            En este Objeto Virtual de Aprendizaje conocerás las características
-            de cada una de estas escalas y aprenderás a convertir valores entre
-            ellas mediante ejemplos y actividades interactivas.
-        </p>
+                    <p>
+                        En este Objeto Virtual de Aprendizaje conocerás las características
+                        de cada una de estas escalas y aprenderás a convertir valores entre
+                        ellas mediante ejemplos y actividades interactivas.
+                    </p>
 
-    </section>
+                </section>
 
-    <section class="objetivos">
+                <section class="objetivos" >
 
-        <h2>Objetivos</h2>
+                    <h2>Objetivos</h2>
 
-        <ul>
+                    <ul>
 
-            <li>Comprender las escalas Celsius, Fahrenheit y Kelvin.</li>
+                        <li>Comprender las escalas Celsius, Fahrenheit y Kelvin.</li>
 
-            <li>Identificar las diferencias entre cada escala.</li>
+                        <li>Identificar las diferencias entre cada escala.</li>
 
-            <li>Aplicar correctamente las fórmulas de conversión.</li>
+                        <li>Aplicar correctamente las fórmulas de conversión.</li>
 
-            <li>Resolver ejercicios relacionados con cambios de temperatura.</li>
+                        <li>Resolver ejercicios relacionados con cambios de temperatura.</li>
 
-        </ul>
+                    </ul>
 
-    </section>
+                </section>
 
-    <section class="competencias">
+                <section class="competencias">
 
-        <h2>Competencias a desarrollar</h2>
+                    <h2>Competencias a desarrollar</h2>
 
-        <p>
-            Aplicar conocimientos relacionados con las magnitudes físicas para
-            resolver situaciones del contexto académico y productivo mediante
-            conversiones entre diferentes escalas de temperatura.
-        </p>
+                    <p>
+                        Aplicar conocimientos relacionados con las magnitudes físicas para
+                        resolver situaciones del contexto académico y productivo mediante
+                        conversiones entre diferentes escalas de temperatura.
+                    </p>
 
-    </section>
+                </section>
 
-<section class="escalas">
+                <section class="escalas">
 
-    <h2>Escalas de Temperatura</h2>
+                    <h2>Escalas de Temperatura</h2>
 
-    <div class="botones">
+                    <div class="botones">
 
-        <button class="activo" onclick="mostrarEscala('celsius', this)">
-            Celsius
-        </button>
+                        <button class="activo" onclick="mostrarEscala('celsius', this)">
+                            Celsius
+                        </button>
 
-        <button onclick="mostrarEscala('fahrenheit', this)">
-            Fahrenheit
-        </button>
+                        <button onclick="mostrarEscala('fahrenheit', this)">
+                            Fahrenheit
+                        </button>
 
-        <button onclick="mostrarEscala('kelvin', this)">
-            Kelvin
-        </button>
+                        <button onclick="mostrarEscala('kelvin', this)">
+                            Kelvin
+                        </button>
 
-    </div>
+                    </div>
 
-    <div class="contenido-escala">
+                    <div class="contenido-escala">
 
-        <!-- CELSIUS -->
+                        <!-- CELSIUS -->
 
-        <div id="celsius" class="escala">
+                        <div id="celsius" class="escala">
 
-            <img src="img/celsius.png" alt="Escala Celsius">
+                            <img src="img/celsius.png" alt="Escala Celsius">
 
-            <h3>Escala Celsius</h3>
+                            <h3>Escala Celsius</h3>
 
-            <p>
+                            <p>
 
-                Es la escala más utilizada en la mayor parte del mundo.
-                El agua se congela a 0°C y hierve a 100°C.
+                                Es la escala más utilizada en la mayor parte del mundo.
+                                El agua se congela a 0°C y hierve a 100°C.
 
-            </p>
+                            </p>
 
-            <div class="dato">
+                            <div class="dato">
 
-                💡 Dato curioso
+                                💡 Dato curioso
 
-                <p>
+                                <p>
 
-                    Anders Celsius creó esta escala en 1742.
+                                    Anders Celsius creó esta escala en 1742.
 
-                </p>
+                                </p>
 
-            </div>
+                            </div>
 
-        </div>
+                        </div>
 
-        <!-- FAHRENHEIT -->
+                        <!-- FAHRENHEIT -->
 
-        <div id="fahrenheit" class="escala oculto">
+                        <div id="fahrenheit" class="escala oculto">
 
-            <img src="img/fahrenheit.png" alt="Escala Fahrenheit">
+                            <img src="img/fahrenheit.png" alt="Escala Fahrenheit">
 
-            <h3>Escala Fahrenheit</h3>
+                            <h3>Escala Fahrenheit</h3>
 
-            <p>
+                            <p>
 
-                Es utilizada principalmente en Estados Unidos.
-                El agua se congela a 32°F y hierve a 212°F.
+                                Es utilizada principalmente en Estados Unidos.
+                                El agua se congela a 32°F y hierve a 212°F.
 
-            </p>
+                            </p>
 
-            <div class="dato">
+                            <div class="dato">
 
-                💡 Dato curioso
+                                Dato curioso
 
-                <p>
+                                <p>
 
-                    Fue creada por Daniel Gabriel Fahrenheit.
+                                    Fue creada por Daniel Gabriel Fahrenheit.
 
-                </p>
+                                </p>
 
-            </div>
+                            </div>
 
-        </div>
+                        </div>
 
-        <!-- KELVIN -->
+                        <!-- KELVIN -->
 
-        <div id="kelvin" class="escala oculto">
+                        <div id="kelvin" class="escala oculto">
 
-            <img src="img/kelvin.png" alt="Escala Kelvin">
+                            <img src="img/kelvin.png" alt="Escala Kelvin">
 
-            <h3>Escala Kelvin</h3>
+                            <h3>Escala Kelvin</h3>
 
-            <p>
+                            <p>
 
-                Es la escala utilizada por la comunidad científica.
+                                Es la escala utilizada por la comunidad científica.
 
-            </p>
+                            </p>
 
-            <div class="dato">
+                            <div class="dato">
 
-                Dato curioso
+                                Dato curioso
 
-                <p>
+                                <p>
 
-                    El cero absoluto corresponde a 0 K.
+                                    El cero absoluto corresponde a 0 K.
 
-                </p>
+                                </p>
 
-            </div>
+                            </div>
 
-        </div>
+                        </div>
 
-    </div>
+                    </div>
 
-</section>
+                </section>
 
 
-<section class="conversiones">
+                <section class="conversiones">
 
-    <h2>Ejemplos de Conversión</h2>
+                    <h2>Ejemplos de Conversión</h2>
 
-    <p class="descripcion">
+                    <p class="descripcion">
 
-        Selecciona una conversión para ver cómo se realiza paso a paso.
+                        Selecciona una conversión para ver cómo se realiza paso a paso.
 
-    </p>
+                    </p>
 
-    <div class="botones-conversion">
+                    <div class="botones-conversion">
 
-        <button onclick="mostrarConversion('cf', this)" class="activo-conversion">
-            °C → °F
-        </button>
+                        <button onclick="mostrarConversion('cf', this)" class="activo-conversion">
+                            °C → °F
+                        </button>
 
-        <button onclick="mostrarConversion('ck', this)">
-            °C → K
-        </button>
+                        <button onclick="mostrarConversion('ck', this)">
+                            °C → K
+                        </button>
 
-        <button onclick="mostrarConversion('fc', this)">
-            °F → °C
-        </button>
+                        <button onclick="mostrarConversion('fc', this)">
+                            °F → °C
+                        </button>
 
-        <button onclick="mostrarConversion('kc', this)">
-            K → °C
-        </button>
+                        <button onclick="mostrarConversion('kc', this)">
+                            K → °C
+                        </button>
 
-    </div>
+                    </div>
 
-    <div class="panel-conversion">
+                    <div class="panel-conversion">
 
-        <div id="cf" class="conversion">
+                        <div id="cf" class="conversion">
 
-            <h3>Celsius → Fahrenheit</h3>
+                            <h3>Celsius → Fahrenheit</h3>
 
-            <p>Ejemplo: Convertir 25 °C a Fahrenheit.</p>
+                            <p>Ejemplo: Convertir 25 °C a Fahrenheit.</p>
 
-            <p>Fórmula:</p>
+                            <p>Fórmula:</p>
 
-            <h4>°F = (°C × 9/5) + 32</h4>
+                            <h4>°F = (°C × 9/5) + 32</h4>
 
-            <p>(25 × 9/5) + 32 = 77 °F</p>
+                            <p>(25 × 9/5) + 32 = 77 °F</p>
 
-        </div>
+                        </div>
 
-        <div id="ck" class="conversion oculto">
+                        <div id="ck" class="conversion oculto">
 
-            <h3>Celsius → Kelvin</h3>
+                            <h3>Celsius → Kelvin</h3>
 
-            <p>Ejemplo: Convertir 25 °C a Kelvin.</p>
+                            <p>Ejemplo: Convertir 25 °C a Kelvin.</p>
 
-            <h4>K = °C + 273.15</h4>
+                            <h4>K = °C + 273.15</h4>
 
-            <p>25 + 273.15 = 298.15 K</p>
+                            <p>25 + 273.15 = 298.15 K</p>
 
-        </div>
+                        </div>
 
-        <div id="fc" class="conversion oculto">
+                        <div id="fc" class="conversion oculto">
 
-            <h3>Fahrenheit → Celsius</h3>
+                            <h3>Fahrenheit → Celsius</h3>
 
-            <p>Ejemplo: Convertir 77 °F a Celsius.</p>
+                            <p>Ejemplo: Convertir 77 °F a Celsius.</p>
 
-            <h4>°C = (°F − 32) × 5/9</h4>
+                            <h4>°C = (°F − 32) × 5/9</h4>
 
-            <p>(77 − 32) × 5/9 = 25 °C</p>
+                            <p>(77 − 32) × 5/9 = 25 °C</p>
 
-        </div>
+                        </div>
 
-        <div id="kc" class="conversion oculto">
+                        <div id="kc" class="conversion oculto">
 
-            <h3>Kelvin → Celsius</h3>
+                            <h3>Kelvin → Celsius</h3>
 
-            <p>Ejemplo: Convertir 298.15 K a Celsius.</p>
+                            <p>Ejemplo: Convertir 298.15 K a Celsius.</p>
 
-            <h4>°C = K − 273.15</h4>
+                            <h4>°C = K − 273.15</h4>
 
-            <p>298.15 − 273.15 = 25 °C</p>
+                            <p>298.15 − 273.15 = 25 °C</p>
 
-        </div>
+                        </div>
 
-    </div>
+                    </div>
 
-</section>
+                </section>
 
-<section class="actividad">
+                <section class="actividad" id="actividad">
 
-    <h2>Actividad de Aprendizaje</h2>
+                    <h2>Actividad de Aprendizaje</h2>
 
-    <p class="descripcion-actividad">
-        Ingresa una temperatura, selecciona la escala de origen y observa cómo
-        el termómetro responderá al valor ingresado.
-    </p>
+                    <p class="descripcion-actividad">
+                        Ingresa una temperatura, selecciona la escala de origen y observa cómo
+                        el termómetro responderá al valor ingresado.
+                    </p>
 
-    <div class="contenedor-actividad">
+                    <div class="contenedor-actividad">
 
-        <div class="panel-formulario">
+                        <div class="panel-formulario">
 
-            <label for="temperatura">
-                Temperatura
-            </label>
+                            <label for="temperatura">
+                                Temperatura
+                            </label>
 
-<input
-    id="temperatura"
-    type="number"
-    placeholder="Ejemplo: 25">
+                            <input id="temperatura" type="number" placeholder="Ejemplo: 25">
 
-<select id="escala">
+                            <select id="escala">
 
-    <option value="celsius">Celsius</option>
+                                <option value="celsius">Celsius</option>
 
-    <option value="fahrenheit">Fahrenheit</option>
+                                <option value="fahrenheit">Fahrenheit</option>
 
-    <option value="kelvin">Kelvin</option>
+                                <option value="kelvin">Kelvin</option>
 
-</select>
+                            </select>
 
-<button
-class="btn-convertir"
-onclick="convertirTemperatura()">
+                            <button class="btn-convertir" onclick="convertirTemperatura()">
 
-Convertir
+                                Convertir
 
-</button>
+                            </button>
 
-        </div>
+                            <div class="interpretacion">
 
-        <div class="panel-termometro">
-            <div class="termometro">
+                                <h3>Interpretación</h3>
 
-                <div class="mercurio"></div>
+                                <div id="mensajeTemperatura">
 
-            </div>
+                                    Ingresa una temperatura para conocer su significado.
 
-            <div class="resultados">
+                                </div>
 
-               <div class="resultado">
+                            </div>
 
-    <h3>Celsius</h3>
+                        </div>
 
-    <span id="resultadoCelsius">--</span>
 
-</div>
 
-<div class="resultado">
+                        <div class="panel-termometro">
+                            <div class="termometro">
 
-    <h3>Fahrenheit</h3>
+                                <div class="mercurio"></div>
 
-    <span id="resultadoFahrenheit">--</span>
+                            </div>
 
-</div>
+                            <div class="resultados">
 
-<div class="resultado">
+                                <div class="resultado">
 
-    <h3>Kelvin</h3>
+                                    <h3>Celsius</h3>
 
-    <span id="resultadoKelvin">--</span>
+                                    <span id="resultadoCelsius">--</span>
 
-</div>
+                                </div>
 
-                </div>
+                                <div class="resultado">
 
-            </div>
+                                    <h3>Fahrenheit</h3>
 
-        </div>
+                                    <span id="resultadoFahrenheit">--</span>
 
-    </div>
+                                </div>
 
-</section>
+                                <div class="resultado">
 
-</main>
+                                    <h3>Kelvin</h3>
+
+                                    <span id="resultadoKelvin">--</span>
+
+                                </div>
+
+
+                            </div>
+
+
+
+                        </div>
+
+                    </div>
+
+                    </div>
+
+                </section>
+
+
+
+            </main>
 
         </section>
 

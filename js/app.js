@@ -105,6 +105,8 @@ function convertirTemperatura(){
     kelvin.toFixed(2)+" K";
 
     actualizarTermometro(celsius);
+    
+  interpretarTemperatura(celsius);
 
 }
 
@@ -137,3 +139,46 @@ function actualizarTermometro(celsius){
     }
 
 }
+
+
+function interpretarTemperatura(celsius){
+
+    const mensaje=document.getElementById("mensajeTemperatura");
+
+    if(celsius<0){
+
+        mensaje.innerHTML=
+        "🥶 <strong>Muy fría.</strong><br>El agua puede congelarse y existe riesgo de formación de hielo.";
+
+    }
+
+    else if(celsius<15){
+
+        mensaje.innerHTML=
+        "❄️ <strong>Fría.</strong><br>Se recomienda usar ropa abrigada.";
+
+    }
+
+    else if(celsius<28){
+
+        mensaje.innerHTML=
+        "😊 <strong>Templada.</strong><br>Es una temperatura agradable para la mayoría de las personas.";
+
+    }
+
+    else if(celsius<35){
+
+        mensaje.innerHTML=
+        "☀️ <strong>Cálida.</strong><br>Es recomendable mantenerse hidratado.";
+
+    }
+
+    else{
+
+        mensaje.innerHTML=
+        "🔥 <strong>Muy caliente.</strong><br>Evita la exposición prolongada al sol y mantente hidratado.";
+
+    }
+
+}
+

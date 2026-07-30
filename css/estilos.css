@@ -1103,7 +1103,53 @@ h2::after{
                background .5s ease;
 
 }
+.interpretacion{
 
+    margin-top:35px;
+
+    background:white;
+
+    padding:30px;
+
+    border-radius:20px;
+
+    box-shadow:0 8px 18px rgba(0,0,0,.12);
+
+    text-align:center;
+
+}
+
+.interpretacion h3{
+
+    color:#1565C0;
+
+    margin-bottom:20px;
+
+    font-size:28px;
+
+}
+
+#mensajeTemperatura{
+
+    font-size:20px;
+
+    line-height:1.8;
+
+    padding:20px;
+
+    border-radius:15px;
+
+    background:#E3F2FD;
+
+    transition:.4s;
+
+}
+
+#mensajeTemperatura{
+
+    animation:aparecer .5s;
+
+}
 .pasos .paso span{
 
     width:55px;
