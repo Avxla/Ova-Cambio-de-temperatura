@@ -187,7 +187,7 @@
 
             <div class="dato">
 
-                💡 Dato curioso
+                Dato curioso
 
                 <p>
 
@@ -307,37 +307,32 @@
                 Temperatura
             </label>
 
-            <input
-                type="number"
-                id="temperatura"
-                placeholder="Ejemplo: 25">
+<input
+    id="temperatura"
+    type="number"
+    placeholder="Ejemplo: 25">
 
-            <label for="escala">
+<select id="escala">
 
-                Escala de origen
+    <option value="celsius">Celsius</option>
 
-            </label>
+    <option value="fahrenheit">Fahrenheit</option>
 
-            <select id="escala">
+    <option value="kelvin">Kelvin</option>
 
-                <option>Celsius</option>
+</select>
 
-                <option>Fahrenheit</option>
+<button
+class="btn-convertir"
+onclick="convertirTemperatura()">
 
-                <option>Kelvin</option>
+Convertir
 
-            </select>
-
-            <button class="btn-convertir">
-
-                Convertir
-
-            </button>
+</button>
 
         </div>
 
         <div class="panel-termometro">
-
             <div class="termometro">
 
                 <div class="mercurio"></div>
@@ -346,27 +341,29 @@
 
             <div class="resultados">
 
-                <div class="resultado">
+               <div class="resultado">
 
-                    <h3>Celsius</h3>
+    <h3>Celsius</h3>
 
-                    <span>--</span>
+    <span id="resultadoCelsius">--</span>
 
-                </div>
+</div>
 
-                <div class="resultado">
+<div class="resultado">
 
-                    <h3>Fahrenheit</h3>
+    <h3>Fahrenheit</h3>
 
-                    <span>--</span>
+    <span id="resultadoFahrenheit">--</span>
 
-                </div>
+</div>
 
-                <div class="resultado">
+<div class="resultado">
 
-                    <h3>Kelvin</h3>
+    <h3>Kelvin</h3>
 
-                    <span>--</span>
+    <span id="resultadoKelvin">--</span>
+
+</div>
 
                 </div>
 
