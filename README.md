@@ -101,3 +101,16 @@ Avance 2 de 16
 - Se preparó la interfaz para implementar la lógica de conversión en el siguiente avance.
 
 <img width="1109" height="910" alt="Captura de pantalla 2026-07-28 185616" src="https://github.com/user-attachments/assets/0f69dfa6-77fe-4dfd-841b-ed5bb306b3c5" />
+
+## Estado del proyecto
+
+**Avance 7 de 16**
+
+### Funcionalidades implementadas
+
+- Se implementó el conversor de temperaturas entre Celsius, Fahrenheit y Kelvin.
+- El usuario puede ingresar un valor y seleccionar la escala de origen.
+- Los resultados se muestran automáticamente en las tres escalas.
+- El termómetro interactivo cambia de nivel y de color según la temperatura calculada.
+
+<img width="1240" height="891" alt="Captura de pantalla 2026-07-29 191326" src="https://github.com/user-attachments/assets/91bd9777-3710-4b7d-9c1e-c051857a86de" />
