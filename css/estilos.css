@@ -1188,17 +1188,16 @@ h2::after{
 }
 .termometro{
 
-    width:60px;
-
-    height:340px;
+    width: 55px;
+    height:380px;
 
     position:relative;
-
-    border-radius:35px;
 
     overflow:hidden;
 
     border:5px solid #607D8B;
+
+    border-radius:28px;
 
     background:#ECEFF1;
 
@@ -1220,7 +1219,124 @@ h2::after{
     background:rgba(255,255,255,.65);
 
 }
+
+.termometro-real{
+
+    display:flex;
+
+    flex-direction:column;
+
+    align-items:center;
+
+}
+
+.tubo{
+
+    width:42px;
+
+    height:300px;
+
+    border:5px solid #607D8B;
+
+    border-bottom:none;
+
+    border-radius:25px 25px 0 0;
+
+    background:#ECEFF1;
+
+    position:relative;
+
+    overflow:hidden;
+
+}
+
+.bulbo{
+
+    width:80px;
+
+    height:80px;
+
+    margin-top:-5px;
+
+    border:5px solid #607D8B;
+
+    border-radius:50%;
+
+    background:#ECEFF1;
+
+    position:relative;
+
+    overflow:hidden;
+
+}
+
+.mercurio-tubo{
+
+    position:absolute;
+
+    left:0;
+
+    bottom:0;
+
+    width:100%;
+
+    height:0;
+
+    background:linear-gradient(
+
+        to top,
+
+        #1565C0,
+
+        #42A5F5,
+
+        #90CAF9
+
+    );
+
+    transition:height .8s;
+
+}
+
+.mercurio-bulbo{
+
+    position:absolute;
+
+    width:100%;
+
+    height:100%;
+
+    background:linear-gradient(
+
+        to top,
+
+        #1565C0,
+
+        #42A5F5
+
+    );
+
+}
+
+.brillo{
+
+    position:absolute;
+
+    left:6px;
+
+    top:15px;
+
+    width:8px;
+
+    height:260px;
+
+    border-radius:30px;
+
+    background:rgba(255,255,255,.55);
+
+}
 .mercurio{
+
 
     position:absolute;
 
@@ -1230,8 +1346,9 @@ h2::after{
 
     width:100%;
 
-    height:20%;
-        margin-top: -25px;
+    height:0;
+
+    transition:height .8s;
 
     background:linear-gradient(
 

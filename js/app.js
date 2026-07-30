@@ -111,43 +111,39 @@ function convertirTemperatura(){
 }
 function actualizarTermometro(celsius){
 
-    const mercurio = document.querySelector(".mercurio");
+    celsius = Math.max(0,Math.min(100,celsius));
 
-    celsius = Math.max(0, Math.min(100, celsius));
+    const tubo = document.getElementById("mercurioTubo");
 
-    // Altura del tubo (sin el bulbo)
-    const alturaTubo = 270; // píxeles
-
-    // Altura que siempre ocupa el bulbo
-    const alturaBulbo = 60; // píxeles
-
-    const altura = alturaBulbo + (celsius / 100) * alturaTubo;
-
-    mercurio.style.height = altura + "px";
+    tubo.style.height = (celsius * 2.5) + "px";
 
     document.getElementById("temperaturaActual").textContent =
         celsius.toFixed(1) + " °C";
 
+    let color;
 
-    if(celsius < 10){
+    if(celsius<20){
 
-        mercurio.style.background =
-        "linear-gradient(to top,#1565C0,#42A5F5,#90CAF9)";
-
-    }else if(celsius < 30){
-
-        mercurio.style.background =
-        "linear-gradient(to top,#43A047,#81C784,#A5D6A7)";
-
-    }else{
-
-        mercurio.style.background =
-        "linear-gradient(to top,#E53935,#EF5350,#FF8A80)";
+        color="linear-gradient(to top,#1565C0,#42A5F5,#90CAF9)";
 
     }
 
-    document.getElementById("temperaturaActual").textContent =
-    celsius.toFixed(1) + " °C";
+    else if(celsius<50){
+
+        color="linear-gradient(to top,#43A047,#81C784,#A5D6A7)";
+
+    }
+
+    else{
+
+        color="linear-gradient(to top,#E53935,#EF5350,#FF8A80)";
+
+    }
+
+    tubo.style.background=color;
+
+    document.querySelector(".mercurio-bulbo").style.background=color;
+
 }
 
 
@@ -169,14 +165,14 @@ function interpretarTemperatura(celsius){
 
     }
 
-    else if(celsius<28){
+    else if(celsius<35){
 
         mensaje.innerHTML=
         "😊 <strong>Templada.</strong><br>Es una temperatura agradable para la mayoría de las personas.";
 
     }
 
-    else if(celsius<35){
+    else if(celsius<50){
 
         mensaje.innerHTML=
         "☀️ <strong>Cálida.</strong><br>Es recomendable mantenerse hidratado.";
