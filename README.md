@@ -114,3 +114,14 @@ Avance 2 de 16
 - El termómetro interactivo cambia de nivel y de color según la temperatura calculada.
 
 <img width="1240" height="891" alt="Captura de pantalla 2026-07-29 191326" src="https://github.com/user-attachments/assets/91bd9777-3710-4b7d-9c1e-c051857a86de" />
+
+## Avance 8 de 16
+
+### Funcionalidades implementadas
+
+- Se incorporó una interpretación automática de la temperatura ingresada.
+- El sistema proporciona mensajes educativos según el valor en grados Celsius.
+- Se añadieron íconos y recomendaciones para facilitar la comprensión del comportamiento de las diferentes temperaturas.
+- Se mejoró la experiencia del usuario mediante retroalimentación visual y descriptiva.
+<img width="1086" height="885" alt="Captura de pantalla 2026-07-29 193059" src="https://github.com/user-attachments/assets/9ca13f3b-2c52-4716-83d0-0f7e896e728f" />
+
