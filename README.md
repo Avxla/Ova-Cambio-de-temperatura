@@ -1,4 +1,5 @@
 
+
 # OVA - Cambios de Temperatura
 
 ## Aprendiz
@@ -128,3 +129,6 @@ Avance 2 de 16
 ## Avance 9 – Evaluación 
 
 En esta etapa se desarrolló el módulo de evaluación del OVA. Se implementó un cuestionario interactivo con preguntas de selección múltiple relacionadas con las escalas de temperatura, las conversiones y sus aplicaciones. El sistema calcula automáticamente el puntaje obtenido y proporciona retroalimentación al usuario según su desempeño, fortaleciendo el proceso de aprendizaje mediante la autoevaluación.
+
+
+<img width="1251" height="914" alt="Captura de pantalla 2026-07-30 190734" src="https://github.com/user-attachments/assets/e74d83bc-9e77-488f-86a4-fd15a4872193" />
