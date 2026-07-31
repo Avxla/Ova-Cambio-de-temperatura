@@ -132,3 +132,12 @@ En esta etapa se desarrolló el módulo de evaluación del OVA. Se implementó u
 
 
 <img width="1251" height="914" alt="Captura de pantalla 2026-07-30 190734" src="https://github.com/user-attachments/assets/e74d83bc-9e77-488f-86a4-fd15a4872193" />
+
+## Avance 10 – Aplicaciones de las Escalas de Temperatura
+
+En este avance se incorporó una nueva sección dedicada a las aplicaciones de las escalas Celsius, Fahrenheit y Kelvin. Se desarrollaron tarjetas informativas con un diseño moderno y responsivo, permitiendo al usuario comprender los principales contextos en los que cada escala es utilizada en la vida cotidiana, la industria y el ámbito científico.
+
+
+
+
+<img width="1236" height="636" alt="Captura de pantalla 2026-07-30 191229" src="https://github.com/user-attachments/assets/324c6ef9-b4af-409a-a410-15b44267692f" />
