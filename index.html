@@ -25,11 +25,13 @@
             <li><a href="#inicio">Inicio</a></li>
             <li><a href="#contenido">Contenido</a></li>
             <li><a href="#actividad">Actividad</a></li>
+            <li><a href="#aplicaciones">Aplicaciones</a></li>
             <li>
-    <a href="#" onclick="mostrarEvaluacion(event)">
-        Evaluación
-    </a>
-</li>
+                <a href="#" onclick="mostrarEvaluacion(event)">
+                    Evaluación
+                </a>
+            </li>
+            
         </ul>
     </nav>
 
@@ -298,122 +300,169 @@
 
                     <div class="contenedor-actividad">
 
-    <!-- PANEL IZQUIERDO -->
-    <div class="panel-formulario">
+                        <!-- PANEL IZQUIERDO -->
+                        <div class="panel-formulario">
 
-        <label for="temperatura">Temperatura</label>
+                            <label for="temperatura">Temperatura</label>
 
-        <input
-            id="temperatura"
-            type="number"
-            placeholder="Ejemplo: 25">
+                            <input id="temperatura" type="number" placeholder="Ejemplo: 25">
 
-        <label for="escala">Escala</label>
+                            <label for="escala">Escala</label>
 
-        <select id="escala">
+                            <select id="escala">
 
-            <option value="celsius">Celsius</option>
-            <option value="fahrenheit">Fahrenheit</option>
-            <option value="kelvin">Kelvin</option>
+                                <option value="celsius">Celsius</option>
+                                <option value="fahrenheit">Fahrenheit</option>
+                                <option value="kelvin">Kelvin</option>
 
-        </select>
+                            </select>
 
-        <button
-            class="btn-convertir"
-            onclick="convertirTemperatura()">
+                            <button class="btn-convertir" onclick="convertirTemperatura()">
 
-            Convertir
+                                Convertir
 
-        </button>
+                            </button>
 
-        <div class="interpretacion">
+                            <div class="interpretacion">
 
-            <h3>Interpretación</h3>
+                                <h3>Interpretación</h3>
 
-            <div id="mensajeTemperatura">
+                                <div id="mensajeTemperatura">
 
-                Ingresa una temperatura para conocer su significado.
+                                    Ingresa una temperatura para conocer su significado.
 
-            </div>
+                                </div>
 
-        </div>
+                            </div>
 
-    </div>
+                        </div>
 
 
-    <!-- PANEL DERECHO -->
-    <div class="panel-termometro">
+                        <!-- PANEL DERECHO -->
+                        <div class="panel-termometro">
 
-        <h3>🌡️ Termómetro</h3>
+                            <h3>🌡️ Termómetro</h3>
 
-       <div class="termometro-contenedor">
+                            <div class="termometro-contenedor">
 
-    <div class="escala-termometro">
+                                <div class="escala-termometro">
 
-        <span>100°</span>
-        <span>80°</span>
-        <span>60°</span>
-        <span>40°</span>
-        <span>20°</span>
-        <span>0°</span>
+                                    <span>100°</span>
+                                    <span>80°</span>
+                                    <span>60°</span>
+                                    <span>40°</span>
+                                    <span>20°</span>
+                                    <span>0°</span>
 
-    </div>
+                                </div>
 
-    <div class="termometro-real">
+                                <div class="termometro-real">
 
-        <div class="tubo">
+                                    <div class="tubo">
 
-            <div class="brillo"></div>
+                                        <div class="brillo"></div>
 
-            <div class="mercurio-tubo" id="mercurioTubo"></div>
+                                        <div class="mercurio-tubo" id="mercurioTubo"></div>
 
-        </div>
+                                    </div>
 
-        <div class="bulbo">
+                                    <div class="bulbo">
 
-            <div class="mercurio-bulbo"></div>
+                                        <div class="mercurio-bulbo"></div>
 
-        </div>
+                                    </div>
 
-    </div>
+                                </div>
 
-</div>
+                            </div>
 
-        <h2 id="temperaturaActual">-- °C</h2>
+                            <h2 id="temperaturaActual">-- °C</h2>
 
-        <div class="resultados">
+                            <div class="resultados">
 
-            <div class="resultado">
+                                <div class="resultado">
 
-                <h3>Celsius</h3>
+                                    <h3>Celsius</h3>
 
-                <span id="resultadoCelsius">--</span>
+                                    <span id="resultadoCelsius">--</span>
 
-            </div>
+                                </div>
 
-            <div class="resultado">
+                                <div class="resultado">
 
-                <h3>Fahrenheit</h3>
+                                    <h3>Fahrenheit</h3>
 
-                <span id="resultadoFahrenheit">--</span>
+                                    <span id="resultadoFahrenheit">--</span>
 
-            </div>
+                                </div>
 
-            <div class="resultado">
+                                <div class="resultado">
 
-                <h3>Kelvin</h3>
+                                    <h3>Kelvin</h3>
 
-                <span id="resultadoKelvin">--</span>
+                                    <span id="resultadoKelvin">--</span>
 
-            </div>
+                                </div>
 
-        </div>
+                            </div>
 
-    </div>
-
-</div>
+                        </div>
 
                     </div>
+
+                    </div>
+
+                    </div>
+
+                </section>
+                                <section class="aplicaciones" id="aplicaciones">
+
+                    <h2>Aplicaciones de las Escalas de Temperatura</h2>
+
+                    <p class="descripcion">
+                        Cada escala de temperatura tiene usos específicos dependiendo del área de aplicación. Conoce
+                        dónde se utiliza cada una.
+                    </p>
+
+                    <div class="contenedor-aplicaciones">
+
+                        <div class="tarjeta-app">
+
+                            
+
+                            <h3>Celsius</h3>
+
+                            <p>
+                                Es la escala utilizada en la mayoría de los países para medir la temperatura ambiental,
+                                el clima, procesos industriales y actividades cotidianas.
+                            </p>
+
+                        </div>
+
+                        <div class="tarjeta-app">
+
+                            
+
+                            <h3>Fahrenheit</h3>
+
+                            <p>
+                                Es utilizada principalmente en Estados Unidos para informar la temperatura del clima,
+                                hornos domésticos y algunas aplicaciones comerciales.
+                            </p>
+
+                        </div>
+
+                        <div class="tarjeta-app">
+
+                            
+                            <h3>Kelvin</h3>
+
+                            <p>
+                                Es la escala oficial del Sistema Internacional y se emplea en física,
+                                química, ingeniería e investigación científica.
+                            </p>
+
+                        </div>
 
                     </div>
 
@@ -421,83 +470,85 @@
 
                 <section class="evaluacion" id="evaluacion">
 
-    <h2>Evaluación Final</h2>
+                    <h2>Evaluación Final</h2>
 
-    <p class="descripcion-evaluacion">
-        Responde las siguientes preguntas para comprobar los conocimientos adquiridos.
-    </p>
+                    <p class="descripcion-evaluacion">
+                        Responde las siguientes preguntas para comprobar los conocimientos adquiridos.
+                    </p>
 
-    <div class="contenedor-evaluacion">
+                    <div class="contenedor-evaluacion">
 
-        <div class="pregunta">
+                        <div class="pregunta">
 
-            <h3>1. ¿Cuál es el punto de congelación del agua en Celsius?</h3>
+                            <h3>1. ¿Cuál es el punto de congelación del agua en Celsius?</h3>
 
-            <label><input type="radio" name="p1" value="a"> 32 °C</label>
+                            <label><input type="radio" name="p1" value="a"> 32 °C</label>
 
-            <label><input type="radio" name="p1" value="b"> 0 °C</label>
+                            <label><input type="radio" name="p1" value="b"> 0 °C</label>
 
-            <label><input type="radio" name="p1" value="c"> 100 °C</label>
+                            <label><input type="radio" name="p1" value="c"> 100 °C</label>
 
-        </div>
+                        </div>
 
-        <div class="pregunta">
+                        <div class="pregunta">
 
-            <h3>2. ¿Cuál es el punto de ebullición del agua en Celsius?</h3>
+                            <h3>2. ¿Cuál es el punto de ebullición del agua en Celsius?</h3>
 
-            <label><input type="radio" name="p2" value="a"> 50 °C</label>
+                            <label><input type="radio" name="p2" value="a"> 50 °C</label>
 
-            <label><input type="radio" name="p2" value="b"> 100 °C</label>
+                            <label><input type="radio" name="p2" value="b"> 100 °C</label>
 
-            <label><input type="radio" name="p2" value="c"> 212 °C</label>
+                            <label><input type="radio" name="p2" value="c"> 212 °C</label>
 
-        </div>
+                        </div>
 
-        <div class="pregunta">
+                        <div class="pregunta">
 
-            <h3>3. ¿Qué escala utiliza el cero absoluto?</h3>
+                            <h3>3. ¿Qué escala utiliza el cero absoluto?</h3>
 
-            <label><input type="radio" name="p3" value="a"> Celsius</label>
+                            <label><input type="radio" name="p3" value="a"> Celsius</label>
 
-            <label><input type="radio" name="p3" value="b"> Fahrenheit</label>
+                            <label><input type="radio" name="p3" value="b"> Fahrenheit</label>
 
-            <label><input type="radio" name="p3" value="c"> Kelvin</label>
+                            <label><input type="radio" name="p3" value="c"> Kelvin</label>
 
-        </div>
+                        </div>
 
-        <div class="pregunta">
+                        <div class="pregunta">
 
-            <h3>4. 20 °C equivalen aproximadamente a:</h3>
+                            <h3>4. 20 °C equivalen aproximadamente a:</h3>
 
-            <label><input type="radio" name="p4" value="a"> 68 °F</label>
+                            <label><input type="radio" name="p4" value="a"> 68 °F</label>
 
-            <label><input type="radio" name="p4" value="b"> 32 °F</label>
+                            <label><input type="radio" name="p4" value="b"> 32 °F</label>
 
-            <label><input type="radio" name="p4" value="c"> 45 °F</label>
+                            <label><input type="radio" name="p4" value="c"> 45 °F</label>
 
-        </div>
+                        </div>
 
-        <div class="pregunta">
+                        <div class="pregunta">
 
-            <h3>5. ¿Qué escala pertenece al Sistema Internacional?</h3>
+                            <h3>5. ¿Qué escala pertenece al Sistema Internacional?</h3>
 
-            <label><input type="radio" name="p5" value="a"> Kelvin</label>
+                            <label><input type="radio" name="p5" value="a"> Kelvin</label>
 
-            <label><input type="radio" name="p5" value="b"> Fahrenheit</label>
+                            <label><input type="radio" name="p5" value="b"> Fahrenheit</label>
 
-            <label><input type="radio" name="p5" value="c"> Celsius</label>
+                            <label><input type="radio" name="p5" value="c"> Celsius</label>
 
-        </div>
+                        </div>
 
-        <button class="btn-evaluacion" onclick="calificarEvaluacion()">
-            Finalizar evaluación
-        </button>
+                        <button class="btn-evaluacion" onclick="calificarEvaluacion()">
+                            Finalizar evaluación
+                        </button>
 
-        <div id="resultadoEvaluacion"></div>
+                        <div id="resultadoEvaluacion"></div>
 
-    </div>
+                    </div>
 
-</section>
+                </section>
+
+
 
 
 

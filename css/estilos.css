@@ -1342,6 +1342,80 @@ h2::after{
 
 }
 
+.aplicaciones{
+
+    margin-top:70px;
+
+}
+
+.aplicaciones h2{
+
+    text-align:center;
+
+    color:var(--color-primario);
+
+    margin-bottom:20px;
+
+}
+
+.contenedor-aplicaciones{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+
+    gap:30px;
+
+    margin-top:40px;
+
+}
+
+.tarjeta-app{
+
+    background:white;
+
+    padding:35px;
+
+    border-radius:18px;
+
+    text-align:center;
+
+    box-shadow:0 10px 25px rgba(0,0,0,.12);
+
+    transition:.4s;
+
+}
+
+.tarjeta-app:hover{
+
+    transform:translateY(-10px);
+
+}
+
+.icono{
+
+    font-size:55px;
+
+    margin-bottom:20px;
+
+}
+
+.tarjeta-app h3{
+
+    color:#1565C0;
+
+    margin-bottom:15px;
+
+}
+
+.tarjeta-app p{
+
+    line-height:1.8;
+
+    text-align:justify;
+
+}
+
 .contenedor-evaluacion{
 
     background:white;
