@@ -109,6 +109,66 @@ function convertirTemperatura(){
   interpretarTemperatura(celsius);
 
 }
+
+function calificarEvaluacion(){
+
+    let nota = 0;
+
+    if(document.querySelector('input[name="p1"]:checked')?.value=="b") nota++;
+
+    if(document.querySelector('input[name="p2"]:checked')?.value=="b") nota++;
+
+    if(document.querySelector('input[name="p3"]:checked')?.value=="c") nota++;
+
+    if(document.querySelector('input[name="p4"]:checked')?.value=="a") nota++;
+
+    if(document.querySelector('input[name="p5"]:checked')?.value=="a") nota++;
+
+    let mensaje="";
+
+    if(nota==5){
+
+        mensaje="¡Excelente! Dominas completamente el tema.";
+
+    }
+
+    else if(nota>=3){
+
+        mensaje="Buen trabajo. Continúa practicando.";
+
+    }
+
+    else{
+
+        mensaje="Debes repasar nuevamente el contenido.";
+
+    }
+
+    document.getElementById("resultadoEvaluacion").innerHTML=
+
+    "<h2>Puntaje: "+nota+"/5</h2><br>"+mensaje;
+
+}
+
+function mostrarEvaluacion(event){
+
+    event.preventDefault();
+
+    const evaluacion = document.getElementById("evaluacion");
+
+    evaluacion.classList.toggle("mostrar");
+
+    if(evaluacion.classList.contains("mostrar")){
+
+        evaluacion.scrollIntoView({
+
+            behavior:"smooth"
+
+        });
+
+    }
+
+}
 function actualizarTermometro(celsius){
 
     celsius = Math.max(0,Math.min(100,celsius));

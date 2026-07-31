@@ -25,7 +25,11 @@
             <li><a href="#inicio">Inicio</a></li>
             <li><a href="#contenido">Contenido</a></li>
             <li><a href="#actividad">Actividad</a></li>
-            <li><a href="#evaluacion">Evaluación</a></li>
+            <li>
+    <a href="#" onclick="mostrarEvaluacion(event)">
+        Evaluación
+    </a>
+</li>
         </ul>
     </nav>
 
@@ -414,6 +418,86 @@
                     </div>
 
                 </section>
+
+                <section class="evaluacion" id="evaluacion">
+
+    <h2>Evaluación Final</h2>
+
+    <p class="descripcion-evaluacion">
+        Responde las siguientes preguntas para comprobar los conocimientos adquiridos.
+    </p>
+
+    <div class="contenedor-evaluacion">
+
+        <div class="pregunta">
+
+            <h3>1. ¿Cuál es el punto de congelación del agua en Celsius?</h3>
+
+            <label><input type="radio" name="p1" value="a"> 32 °C</label>
+
+            <label><input type="radio" name="p1" value="b"> 0 °C</label>
+
+            <label><input type="radio" name="p1" value="c"> 100 °C</label>
+
+        </div>
+
+        <div class="pregunta">
+
+            <h3>2. ¿Cuál es el punto de ebullición del agua en Celsius?</h3>
+
+            <label><input type="radio" name="p2" value="a"> 50 °C</label>
+
+            <label><input type="radio" name="p2" value="b"> 100 °C</label>
+
+            <label><input type="radio" name="p2" value="c"> 212 °C</label>
+
+        </div>
+
+        <div class="pregunta">
+
+            <h3>3. ¿Qué escala utiliza el cero absoluto?</h3>
+
+            <label><input type="radio" name="p3" value="a"> Celsius</label>
+
+            <label><input type="radio" name="p3" value="b"> Fahrenheit</label>
+
+            <label><input type="radio" name="p3" value="c"> Kelvin</label>
+
+        </div>
+
+        <div class="pregunta">
+
+            <h3>4. 20 °C equivalen aproximadamente a:</h3>
+
+            <label><input type="radio" name="p4" value="a"> 68 °F</label>
+
+            <label><input type="radio" name="p4" value="b"> 32 °F</label>
+
+            <label><input type="radio" name="p4" value="c"> 45 °F</label>
+
+        </div>
+
+        <div class="pregunta">
+
+            <h3>5. ¿Qué escala pertenece al Sistema Internacional?</h3>
+
+            <label><input type="radio" name="p5" value="a"> Kelvin</label>
+
+            <label><input type="radio" name="p5" value="b"> Fahrenheit</label>
+
+            <label><input type="radio" name="p5" value="c"> Celsius</label>
+
+        </div>
+
+        <button class="btn-evaluacion" onclick="calificarEvaluacion()">
+            Finalizar evaluación
+        </button>
+
+        <div id="resultadoEvaluacion"></div>
+
+    </div>
+
+</section>
 
 
 
