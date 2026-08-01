@@ -206,6 +206,63 @@ function actualizarTermometro(celsius){
 
 }
 
+function calcularConversion(){
+
+    const valor = parseFloat(document.getElementById("valorConvertir").value);
+
+    const origen = document.getElementById("escalaOrigen").value;
+
+    const destino = document.getElementById("escalaDestino").value;
+
+    if(isNaN(valor)){
+
+        alert("Ingrese una temperatura.");
+
+        return;
+
+    }
+
+    let celsius;
+
+    switch(origen){
+
+        case "celsius":
+            celsius = valor;
+        break;
+
+        case "fahrenheit":
+            celsius = (valor-32)*5/9;
+        break;
+
+        case "kelvin":
+            celsius = valor-273.15;
+        break;
+
+    }
+
+    let resultado;
+
+    switch(destino){
+
+        case "celsius":
+            resultado = celsius;
+        break;
+
+        case "fahrenheit":
+            resultado = (celsius*9/5)+32;
+        break;
+
+        case "kelvin":
+            resultado = celsius+273.15;
+        break;
+
+    }
+
+    document.getElementById("resultadoCalculadora").textContent =
+        resultado.toFixed(2);
+
+}
+
 
 function interpretarTemperatura(celsius){
 
