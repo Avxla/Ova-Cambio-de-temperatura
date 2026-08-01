@@ -145,3 +145,8 @@ Avance 11 – Historia de las Escalas de Temperatura
 En este avance se incorporó una línea de tiempo interactiva que presenta los principales científicos relacionados con el desarrollo de las escalas de temperatura. La sección permite comprender el contexto histórico de las escalas Celsius, Fahrenheit y Kelvin mediante un diseño visual atractivo y adaptado a dispositivos móviles.
 
 <img width="1553" height="906" alt="Captura de pantalla 2026-08-01 120004" src="https://github.com/user-attachments/assets/2990d1d3-1805-4860-8a83-5db09c5d7645" />
+
+Avance 12 – Calculadora de Conversión
+
+En este avance se implementó una calculadora interactiva que permite convertir temperaturas entre las escalas Celsius, Fahrenheit y Kelvin. El usuario puede seleccionar la escala de origen, la escala de destino e ingresar un valor para obtener el resultado de forma inmediata. Esta funcionalidad complementa la actividad de aprendizaje y fortalece la interacción con la OVA.
+<img width="1598" height="888" alt="image" src="https://github.com/user-attachments/assets/747a75a9-c26c-484a-9728-0e4ed62e9852" />
