@@ -144,3 +144,4 @@ Avance 11 – Historia de las Escalas de Temperatura
 
 En este avance se incorporó una línea de tiempo interactiva que presenta los principales científicos relacionados con el desarrollo de las escalas de temperatura. La sección permite comprender el contexto histórico de las escalas Celsius, Fahrenheit y Kelvin mediante un diseño visual atractivo y adaptado a dispositivos móviles.
 
+<img width="1553" height="906" alt="Captura de pantalla 2026-08-01 120004" src="https://github.com/user-attachments/assets/2990d1d3-1805-4860-8a83-5db09c5d7645" />
