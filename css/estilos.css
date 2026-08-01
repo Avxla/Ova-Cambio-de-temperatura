@@ -1189,6 +1189,126 @@ h2::after{
     transform:translateX(10px);
 
 }
+.calculadora{
+
+    margin-top:70px;
+
+}
+
+.calculadora h2{
+
+    text-align:center;
+
+    color:var(--color-primario);
+
+}
+
+.panel-calculadora{
+
+    max-width:650px;
+
+    margin:40px auto;
+
+    background:white;
+
+    padding:40px;
+
+    border-radius:20px;
+
+    box-shadow:0 10px 25px rgba(0,0,0,.15);
+
+}
+
+.panel-calculadora input,
+.panel-calculadora select{
+
+    width:100%;
+
+    padding:15px;
+
+    margin-top:10px;
+
+    border-radius:10px;
+
+    border:1px solid #ccc;
+
+    font-size:17px;
+
+}
+
+.seleccion{
+
+    display:grid;
+
+    grid-template-columns:1fr 1fr;
+
+    gap:20px;
+
+    margin-top:25px;
+
+}
+
+.panel-calculadora button{
+
+    width:100%;
+
+    margin-top:30px;
+
+    padding:16px;
+
+    border:none;
+
+    border-radius:10px;
+
+    background:#1565C0;
+
+    color:white;
+
+    cursor:pointer;
+
+    font-size:18px;
+
+    transition:.3s;
+
+}
+
+.panel-calculadora button:hover{
+
+    background:#0D47A1;
+
+}
+
+.resultado-calculadora{
+
+    margin-top:35px;
+
+    text-align:center;
+
+    background:#E3F2FD;
+
+    padding:25px;
+
+    border-radius:15px;
+
+}
+
+.resultado-calculadora h3{
+
+    color:#1565C0;
+
+    margin-bottom:15px;
+
+}
+
+.resultado-calculadora span{
+
+    font-size:30px;
+
+    font-weight:bold;
+
+    color:#E65100;
+
+}
 
 .mercurio{
 
