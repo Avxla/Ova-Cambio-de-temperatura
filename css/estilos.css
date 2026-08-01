@@ -780,6 +780,111 @@ h2::after{
     box-shadow:0 10px 25px rgba(25,118,210,.25);
 
 }
+.historia{
+
+    margin-top:70px;
+
+}
+
+.historia h2{
+
+    text-align:center;
+
+    color:var(--color-primario);
+
+    margin-bottom:20px;
+
+}
+
+.linea-tiempo{
+
+    position:relative;
+
+    margin:60px auto;
+
+    max-width:900px;
+
+}
+
+.linea-tiempo::before{
+
+    content:"";
+
+    position:absolute;
+
+    left:50%;
+
+    transform:translateX(-50%);
+
+    width:6px;
+
+    height:100%;
+
+    background:#1565C0;
+
+    border-radius:10px;
+
+}
+
+.evento{
+
+    width:50%;
+
+    padding:20px 40px;
+
+    position:relative;
+
+}
+
+.izquierda{
+
+    left:0;
+
+}
+
+.derecha{
+
+    left:50%;
+
+}
+
+.contenido-evento{
+
+    background:white;
+
+    padding:25px;
+
+    border-radius:15px;
+
+    box-shadow:0 10px 25px rgba(0,0,0,.12);
+
+    transition:.3s;
+
+}
+
+.contenido-evento:hover{
+
+    transform:scale(1.03);
+
+}
+
+.año{
+
+    display:inline-block;
+
+    background:#1565C0;
+
+    color:white;
+
+    padding:6px 15px;
+
+    border-radius:20px;
+
+    margin-bottom:15px;
+
+    font-weight:bold;
+
+}
 
 .btn-ejemplo:hover{
 
