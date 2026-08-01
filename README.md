@@ -22,7 +22,7 @@ Este proyecto corresponde al desarrollo de un Objeto Virtual de Aprendizaje (OVA
 
 ## Estado del proyecto
 
-Avance 1 de 16
+Avance 1 
 
 ### Funcionalidades implementadas
 - ✔ Organización de la estructura de carpetas.
@@ -36,7 +36,7 @@ Avance 1 de 16
 
 # Estado del proyecto
 
-Avance 2 de 16
+Avance 2 
 
 ## Funcionalidades implementadas
 
@@ -51,7 +51,7 @@ Avance 2 de 16
 
 ## Estado del proyecto
 
-**Avance 3 de 16**
+**Avance 3 **
 
 ### Funcionalidades implementadas
 
@@ -65,7 +65,7 @@ Avance 2 de 16
 
 ## Estado del proyecto
 
-**Avance 4 de 16**
+**Avance 4 **
 
 ### Funcionalidades implementadas
 
@@ -78,7 +78,7 @@ Avance 2 de 16
 
 ## Estado del proyecto
 
-**Avance 5 de 16**
+**Avance 5**
 
 ### Funcionalidades implementadas
 
@@ -91,7 +91,7 @@ Avance 2 de 16
 
 ## Estado del proyecto
 
-**Avance 6 de 16**
+**Avance 6**
 
 ### Funcionalidades implementadas
 
@@ -105,7 +105,7 @@ Avance 2 de 16
 
 ## Estado del proyecto
 
-**Avance 7 de 16**
+**Avance 7**
 
 ### Funcionalidades implementadas
 
