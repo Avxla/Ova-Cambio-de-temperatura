@@ -158,3 +158,10 @@ En este avance se desarrolló una sección interactiva con curiosidades relacion
 
 
 <img width="1604" height="888" alt="image" src="https://github.com/user-attachments/assets/a74d4f7e-20c9-4fc1-b7e3-ddd02bdcc70e" />
+
+
+Avance 14 – Rediseño visual de la OVA
+Objetivo
+
+Modernizar la interfaz utilizando efectos visuales, animaciones, degradados, tarjetas más elegantes y una apariencia inspirada en aplicaciones educativas.
+
