@@ -47,6 +47,11 @@ function mostrarConversion(id, boton){
 
 }
 
+function activarCuriosidad(tarjeta){
+
+    tarjeta.classList.toggle("activa");
+
+}
 function convertirTemperatura(){
 
     const temperatura =
