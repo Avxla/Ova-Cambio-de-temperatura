@@ -165,3 +165,10 @@ Objetivo
 
 Modernizar la interfaz utilizando efectos visuales, animaciones, degradados, tarjetas más elegantes y una apariencia inspirada en aplicaciones educativas.
 
+Avance 15 - Volver más pulcra la aplicación
+
+en este avance se completo el css de forma en que ya no habrán zonas sin estilo, con un poco más de relieve y convirtiendo la propia aplicación en un ova mucha más interactivo, no se adjuntan imagenes al ser cambios no tan definidos ya que se estuvo modificando codigo innecesario o poco útil 
+
+Avance 16 - Ova Definitivo
+
+Ya se ha dado por concluido el proyecto ova 
