@@ -150,3 +150,10 @@ Avance 12 – Calculadora de Conversión
 
 En este avance se implementó una calculadora interactiva que permite convertir temperaturas entre las escalas Celsius, Fahrenheit y Kelvin. El usuario puede seleccionar la escala de origen, la escala de destino e ingresar un valor para obtener el resultado de forma inmediata. Esta funcionalidad complementa la actividad de aprendizaje y fortalece la interacción con la OVA.
 <img width="1598" height="888" alt="image" src="https://github.com/user-attachments/assets/747a75a9-c26c-484a-9728-0e4ed62e9852" />
+
+
+Avance 13 – Curiosidades sobre la Temperatura
+
+En este avance se desarrolló una sección interactiva con curiosidades relacionadas con la temperatura y las escalas de medición. Se incorporaron tarjetas informativas con animaciones y efectos visuales que permiten al usuario descubrir datos interesantes sobre fenómenos naturales, el cero absoluto, la superficie del Sol y los registros extremos de temperatura en la Tierra. Esta sección complementa el contenido teórico y hace que la experiencia de aprendizaje sea más atractiva e interactiva.
+
+
