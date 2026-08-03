@@ -1343,6 +1343,79 @@ h2::after{
     text-align:center;
 
 }
+.curiosidades{
+
+    margin-top:70px;
+
+}
+
+.curiosidades h2{
+
+    text-align:center;
+
+    color:var(--color-primario);
+
+    margin-bottom:20px;
+
+}
+
+.contenedor-curiosidades{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+
+    gap:30px;
+
+    margin-top:40px;
+
+}
+
+.curiosidad{
+
+    background:white;
+
+    padding:30px;
+
+    border-radius:18px;
+
+    text-align:center;
+
+    box-shadow:0 10px 25px rgba(0,0,0,.12);
+
+    transition:.35s;
+
+}
+
+.curiosidad:hover{
+
+    transform:translateY(-10px) scale(1.03);
+
+}
+
+.emoji{
+
+    font-size:55px;
+
+    margin-bottom:20px;
+
+}
+
+.curiosidad h3{
+
+    color:#1565C0;
+
+    margin-bottom:15px;
+
+}
+
+.curiosidad p{
+
+    line-height:1.8;
+
+    text-align:justify;
+
+}
 
 .interpretacion h3{
 
