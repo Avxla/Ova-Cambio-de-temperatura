@@ -20,6 +20,16 @@
 
     </header>
 
+    <div class="cambiar-vista">
+
+    <button onclick="cambiarVista()">
+
+         Cambiar vista
+
+    </button>
+
+</div>
+
     <nav>
         <ul>
             <li><a href="#inicio">Inicio</a></li>
@@ -40,11 +50,17 @@
 
     <main>
 
+        <div id="panelSecciones" class="vista-normal">
+
         <section class="bienvenida">
+            
 
             <main>
 
                 <section class="introduccion" id="contenido">
+
+                    <section class="tarjeta-panel"
+         onclick="abrirTarjeta(this)">
 
                     <h2>Introducción</h2>
 
@@ -64,6 +80,7 @@
                 </section>
 
                 <section class="objetivos">
+                    
 
                     <h2>Objetivos</h2>
 
@@ -293,6 +310,8 @@
                 </section>
 
                 <section class="actividad" id="actividad">
+                    <section class="tarjeta-panel"
+         onclick="abrirTarjeta(this)">
 
                     <h2>Actividad de Aprendizaje</h2>
 
@@ -420,6 +439,9 @@
                 </section>
                                 <section class="aplicaciones" id="aplicaciones">
 
+                                    <section class="tarjeta-panel"
+         onclick="abrirTarjeta(this)">
+
                     <h2>Aplicaciones de las Escalas de Temperatura</h2>
 
                     <p class="descripcion">
@@ -472,6 +494,9 @@
                 </section>
 
                 <section class="historia" id="historia">
+
+                    <section class="tarjeta-panel"
+         onclick="abrirTarjeta(this)">
 
     <h2>Historia de las Escalas de Temperatura</h2>
 
@@ -553,6 +578,8 @@
 
 </section>
                 <section class="calculadora" id="calculadora">
+                    <section class="tarjeta-panel"
+         onclick="abrirTarjeta(this)">
 
     <h2>Calculadora de Conversión</h2>
 
@@ -619,6 +646,8 @@
 
 </section>
                 <section class="curiosidades" id="curiosidades">
+                    <section class="tarjeta-panel"
+         onclick="abrirTarjeta(this)">
 
     <h2>Curiosidades sobre la Temperatura</h2>
 
@@ -630,7 +659,7 @@
 
         <div class="curiosidad">
 
-            <div class="emoji">🥶</div>
+          
 
             <h3>Temperatura más baja</h3>
 
@@ -643,7 +672,7 @@
 
         <div class="curiosidad">
 
-            <div class="emoji">🔥</div>
+           
 
             <h3>Temperatura más alta</h3>
 
@@ -656,7 +685,7 @@
 
         <div class="curiosidad">
 
-            <div class="emoji">☀️</div>
+        
 
             <h3>Superficie del Sol</h3>
 
@@ -669,7 +698,7 @@
 
         <div class="curiosidad">
 
-            <div class="emoji">❄️</div>
+            
 
             <h3>Cero absoluto</h3>
 
@@ -685,6 +714,8 @@
 </section>
 
                 <section class="evaluacion" id="evaluacion">
+                    <section class="tarjeta-panel"
+         onclick="abrirTarjeta(this)">
 
                     <h2>Evaluación Final</h2>
 
@@ -768,9 +799,13 @@
 
 
 
+
+
             </main>
 
         </section>
+
+        </div>
 
     </main>
 
