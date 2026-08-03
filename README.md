@@ -157,3 +157,4 @@ Avance 13 – Curiosidades sobre la Temperatura
 En este avance se desarrolló una sección interactiva con curiosidades relacionadas con la temperatura y las escalas de medición. Se incorporaron tarjetas informativas con animaciones y efectos visuales que permiten al usuario descubrir datos interesantes sobre fenómenos naturales, el cero absoluto, la superficie del Sol y los registros extremos de temperatura en la Tierra. Esta sección complementa el contenido teórico y hace que la experiencia de aprendizaje sea más atractiva e interactiva.
 
 
+<img width="1604" height="888" alt="image" src="https://github.com/user-attachments/assets/a74d4f7e-20c9-4fc1-b7e3-ddd02bdcc70e" />
