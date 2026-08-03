@@ -23,6 +23,40 @@ function mostrarEscala(nombre, boton){
 
 }
 
+function cambiarVista(){
+
+    const panel = document.getElementById("panelSecciones");
+
+    if(panel.classList.contains("vista-panel")){
+
+        panel.classList.remove("vista-panel");
+
+        panel.classList.add("vista-normal");
+
+    }
+
+    else{
+
+        panel.classList.remove("vista-normal");
+
+        panel.classList.add("vista-panel");
+
+    }
+
+}
+function abrirTarjeta(tarjeta){
+
+    document
+        .querySelectorAll(".tarjeta-panel")
+        .forEach(item=>{
+
+            item.classList.remove("activa");
+
+        });
+
+    tarjeta.classList.add("activa");
+
+}
 function mostrarConversion(id, boton){
 
     const conversiones=document.querySelectorAll(".conversion");
@@ -276,35 +310,35 @@ function interpretarTemperatura(celsius){
     if(celsius<0){
 
         mensaje.innerHTML=
-        "🥶 <strong>Muy fría.</strong><br>El agua puede congelarse y existe riesgo de formación de hielo.";
+        "<strong>Muy fría.</strong><br>El agua puede congelarse y existe riesgo de formación de hielo.";
 
     }
 
     else if(celsius<15){
 
         mensaje.innerHTML=
-        "❄️ <strong>Fría.</strong><br>Se recomienda usar ropa abrigada.";
+        "<strong>Fría.</strong><br>Se recomienda usar ropa abrigada.";
 
     }
 
     else if(celsius<35){
 
         mensaje.innerHTML=
-        "😊 <strong>Templada.</strong><br>Es una temperatura agradable para la mayoría de las personas.";
+        "<strong>Templada.</strong><br>Es una temperatura agradable para la mayoría de las personas.";
 
     }
 
     else if(celsius<50){
 
         mensaje.innerHTML=
-        "☀️ <strong>Cálida.</strong><br>Es recomendable mantenerse hidratado.";
+        "<strong>Cálida.</strong><br>Es recomendable mantenerse hidratado.";
 
     }
 
     else{
 
         mensaje.innerHTML=
-        "🔥 <strong>Muy caliente.</strong><br>Evita la exposición prolongada al sol y mantente hidratado.";
+        "<strong>Muy caliente.</strong><br>Evita la exposición prolongada al sol y mantente hidratado.";
 
     }
 
